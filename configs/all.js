@@ -20,7 +20,7 @@ const deprecatedRules = filterRules(allRules, (rule) => rule.meta.deprecated);
 
 module.exports = {
   plugins: {
-    react: {
+    'react-custom': {
       deprecatedRules,
       rules: allRules,
     },
